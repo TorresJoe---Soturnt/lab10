@@ -31,5 +31,15 @@ square = drawpad.create_rectangle(300,360,340,400, fill='red')
 square = drawpad.create_rectangle(460,360,500,400, fill='red')
 #door
 square = drawpad.create_rectangle(370,510,430,600, fill='white')
+#Door Handle
+square = drawpad.create_rectangle(410,550,430,560, fill='white')
+#Chimney
+line = drawpad.create_line(300, 272, 300, 180)
+line = drawpad.create_line(300, 180, 340, 180)
+line = drawpad.create_line(340, 180, 340, 227)
+
+
+
+
 
 root.mainloop()
